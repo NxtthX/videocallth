@@ -1,3 +1,4 @@
+verified = 'false'
 rdmnmbr = 6405780
 
 ThunkableWebviewerExtension.postMessage(rdmnmbr)
@@ -14,3 +15,10 @@ function Checkforcode() {
 
 
 }
+function checkifverified() {
+
+
+  if (verified == "false") {
+
+    window.open("index.html", "_self");
+  }
