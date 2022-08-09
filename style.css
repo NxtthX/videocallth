@@ -2,6 +2,9 @@ iframe {
     height: 200%;
     width: 100%;
 }
+facingMode: {
+      exact: 'environment'
+}
 
 input{
     width: 95%;
