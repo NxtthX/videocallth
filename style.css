@@ -1,10 +1,8 @@
 iframe:fullscreen {
-    height: 100%;
-    width: 100%;
 }
 
-input{
-    width: 95%;
-    height: 10%;
-    
+iframe:-webkit-full-screen {
+}
+
+iframe:-ms-fullscreen{
 }
